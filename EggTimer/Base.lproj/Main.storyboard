@@ -50,6 +50,9 @@
                                                         <state key="normal" title="Soft">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="hardnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uxG-dN-mai"/>
+                                                        </connections>
                                                     </button>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="soft_egg" translatesAutoresizingMaskIntoConstraints="NO" id="fyk-gg-9Ex">
                                                         <rect key="frame" x="0.0" y="0.0" width="107" height="227"/>
@@ -76,6 +79,9 @@
                                                         <state key="normal" title="Button">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="hardnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="49M-x4-qtq"/>
+                                                        </connections>
                                                     </button>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="medium_egg" translatesAutoresizingMaskIntoConstraints="NO" id="dtk-Fz-M4K">
                                                         <rect key="frame" x="0.0" y="0.0" width="107" height="227"/>
@@ -102,6 +108,9 @@
                                                         <state key="normal" title="Hard">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="hardnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gyW-3q-ULb"/>
+                                                        </connections>
                                                     </button>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hard_egg" translatesAutoresizingMaskIntoConstraints="NO" id="sav-5K-C4t">
                                                         <rect key="frame" x="0.0" y="0.0" width="107" height="227"/>
@@ -150,6 +159,10 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WJs-BS-3eS" secondAttribute="bottom" id="wXZ-LO-P5X"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="progressBar" destination="lsD-iQ-iFh" id="h55-SD-tVI"/>
+                        <outlet property="titleLable" destination="UzC-TS-Qa2" id="k2z-Lw-fmF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
